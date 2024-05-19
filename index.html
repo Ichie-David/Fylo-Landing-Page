@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      font-family: "Raleway", sans-serif;
+      font-size: 2rem;
+    }
+
+    mai {
+      width: 90%;
+      margin: auto;
+    }
+
+    .head {
+      display: flex;
+      justify-content: space-between;
+      padding: 3rem 5rem 5rem 5rem;
+    }
+
+    .first {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10rem;
+      padding: 0 5rem;
+    }
+
+    .hero_one,.hero_two {
+      width: 50%;
+    }
+
+    .second {
+      display: flex;
+      justify-content: space-between;
+      /* background: url(./images/bg-curve-desktop.svg); */
+      background-color: hsl(240, 75%, 98%);
+      padding: 5rem;
+    }
+
+    .third {
+      background-color: hsl(238, 22%, 44%);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5rem;
+    }
+
+    .text {
+      width: 50%;
+    }
+
+    .input_third {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-right: 10rem;
+    }
+
+    #email-1 {
+      width: 50%;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+    }
+
+    span {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    #email {
+      width: 200%;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    button {
+      border: none;
+      background-color: hsl(224, 93%, 58%);
+      color: white;
+      padding: 1rem;
+      font-family: "Raleway", sans-serif;
+    }
+
+    .btn {
+      background-color: transparent;
+      color: black;
+    }
+
+  </style>
+</head>
+
+<body>
+  <main>
+    <header class="head">
+      <div>
+        <img src="./images/logo.svg" alt="">
+      </div>
+
+      <div class="nav">
+        <button class="btn">Features</button>
+        <button class="btn">Team</button>
+        <button class="btn">Sign In</button>
+      </div>
+    </header>
+
+    <section class="first">
+      <div class="text">
+        <h2>All your files in one secure location, accessible anywhere.</h2>
+        <p>Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.</p>
+        <span>
+          <input type="email" name="" id="email-1" placeholder="Enter your email...">
+          <button>Get Started</button>
+        </span>
+      </div>
+
+      <div class="hero_one">
+        <img src="./images/illustration-1.svg" alt="" width="100%">
+      </div>
+    </section>
+
+    <section class="second">
+      <div class="text">
+        <h2>Stay productive, wherever you are</h2>
+        <p>Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.</p>
+        <p>Securely share files and folders with friends, family and colleagues for
+          live collaboration. No email attachments required!</p>
+        <a href="#">See how Fylo works <img src="./images/icon-arrow.svg" alt=""></a>
+
+        <!-- textbox -->
+      </div>
+
+      <div class="hero_two">
+        <img src="./images/illustration-2.svg" alt="" width="100%">
+      </div>
+    </section>
+
+    <section class="third">
+      <div class="text">
+        <h2>Get early access today</h2>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions,
+          our support team would be happy to help you.</p>
+      </div>
+
+      <div class="input_third">
+        <input type="email" name="" id="email" placeholder="email@example.com" class="email">
+        <button>Get Started For Free</button>
+      </div>
+    </section>
+
+    <section class="last">
+
+    </section>
+
+
+  </main>
+
+  <!-- 
+
+
+  
+
+  
+
+  Fylo has improved our team productivity by an order of magnitude. Since 
+  making the switch our team has become a well-oiled collaboration machine.
+
+  Kyle Burton
+  Founder & CEO, Huddle
+
+
+
+  Phone: +1-543-123-4567
+  example@fylo.com
+
+  About Us
+  Jobs
+  Press
+  Blog
+
+  Contact Us
+  Terms
+  Privacy
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+
+</html>

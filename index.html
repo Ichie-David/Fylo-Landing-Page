@@ -53,10 +53,6 @@
       padding: 0 5rem;
     }
 
-    .hero_one,.hero_two {
-      width: 50%;
-    }
-
     .second {
       display: flex;
       justify-content: space-between;
@@ -114,6 +110,20 @@
       color: black;
     }
 
+    .last {
+      background-color: hsl(243, 87%, 12%);
+      color: white;
+      display: grid;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+
+    .last_last {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
   </style>
 </head>
 
@@ -143,7 +153,7 @@
         </span>
       </div>
 
-      <div class="hero_one">
+      <div>
         <img src="./images/illustration-1.svg" alt="" width="100%">
       </div>
     </section>
@@ -160,7 +170,7 @@
         <!-- textbox -->
       </div>
 
-      <div class="hero_two">
+      <div>
         <img src="./images/illustration-2.svg" alt="" width="100%">
       </div>
     </section>
@@ -179,7 +189,33 @@
     </section>
 
     <section class="last">
+      <div>
+        <img src="./images/logo.svg" alt="" class="icon-bottom">
+      </div>
 
+      <div class="last_last">
+        <div>
+          <p><img src="./images/icon-phone.svg" alt=""> Phone: +1-543-123-4567</p>
+          <p><img src="./images/icon-email.svg" alt="">example@fylo.com</p>
+        </div>
+
+        <div>
+          <a href="#">About Us</a>
+          <a href="#">Jobs</a>
+          <a href="#">Press</a>
+          <a href="#">Blog</a>
+        </div>
+
+        <div>
+          <a href="">Contact Us</a>
+          <a href="">Terms</a>
+          <a href="">Privacy</a>
+        </div>
+
+        <div>
+
+        </div>
+      </div>
     </section>
 
 
@@ -188,10 +224,6 @@
   <!-- 
 
 
-  
-
-  
-
   Fylo has improved our team productivity by an order of magnitude. Since 
   making the switch our team has become a well-oiled collaboration machine.
 
@@ -199,18 +231,6 @@
   Founder & CEO, Huddle
 
 
-
-  Phone: +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
 
   <footer>
     <p class="attribution">

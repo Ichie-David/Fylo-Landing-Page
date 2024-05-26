@@ -11,120 +11,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    h2 {
-      font-family: "Raleway", sans-serif;
-      font-size: 2rem;
-    }
-
-    mai {
-      width: 90%;
-      margin: auto;
-    }
-
-    .head {
-      display: flex;
-      justify-content: space-between;
-      padding: 3rem 5rem 5rem 5rem;
-    }
-
-    .first {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 10rem;
-      padding: 0 5rem;
-    }
-
-    .second {
-      display: flex;
-      justify-content: space-between;
-      /* background: url(./images/bg-curve-desktop.svg); */
-      background-color: hsl(240, 75%, 98%);
-      padding: 5rem;
-    }
-
-    .third {
-      background-color: hsl(238, 22%, 44%);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 5rem;
-    }
-
-    .text {
-      width: 50%;
-    }
-
-    .input_third {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      margin-right: 10rem;
-    }
-
-    #email-1 {
-      width: 50%;
-      padding-top: 0.8rem;
-      padding-bottom: 0.8rem;
-    }
-
-    span {
-      display: flex;
-      gap: 1.5rem;
-    }
-
-    #email {
-      width: 200%;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-    }
-
-    button {
-      border: none;
-      background-color: hsl(224, 93%, 58%);
-      color: white;
-      padding: 1rem;
-      font-family: "Raleway", sans-serif;
-    }
-
-    .btn {
-      background-color: transparent;
-      color: black;
-    }
-
-    .last {
-      background-color: hsl(243, 87%, 12%);
-      color: white;
-      display: grid;
-      justify-content: space-between;
-      flex-direction: column;
-    }
-
-    .last_last {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-
-  </style>
 </head>
 
 <body>
@@ -189,14 +81,14 @@
     </section>
 
     <section class="last">
-      <div>
+      <div class="last_one">
         <img src="./images/logo.svg" alt="" class="icon-bottom">
       </div>
 
-      <div class="last_last">
+      <div class="last_two">
         <div>
-          <p><img src="./images/icon-phone.svg" alt=""> Phone: +1-543-123-4567</p>
-          <p><img src="./images/icon-email.svg" alt="">example@fylo.com</p>
+          <p><img src="./images/icon-phone.svg" alt="" class="icon"> Phone: +1-543-123-4567</p>
+          <p><img src="./images/icon-email.svg" alt="" class="icon">example@fylo.com</p>
         </div>
 
         <div>
@@ -212,8 +104,10 @@
           <a href="">Privacy</a>
         </div>
 
-        <div>
-
+        <div class="socials">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
         </div>
       </div>
     </section>

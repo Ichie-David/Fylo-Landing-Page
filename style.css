@@ -33,9 +33,15 @@ h2 {
 .second {
   display: flex;
   justify-content: space-between;
-  /* background: url(./images/bg-curve-desktop.svg); */
   background-color: hsl(240, 75%, 98%);
   padding: 5rem;
+}
+
+.curve_1 {
+  display: grid;
+  position: relative;
+  bottom: 11rem;
+  right: 11rem;
 }
 
 .third {
@@ -102,17 +108,24 @@ button {
 .icon {
   margin-right: 1rem;
 }
-.last_two div {
+
+.last_two_ {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
 }
 
-.socials {
-  flex-direction: row;
+a {
+  text-decoration: none;
+  color: azure;
 }
 
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-right: 10rem;
+}
 .fa {
   padding: 0.5rem;
   text-align: center;
